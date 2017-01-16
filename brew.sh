@@ -34,10 +34,17 @@ brew install wget --with-iri
 
 # Install more recent versions of some OS X tools
 brew install vim --with-override-system-vi
-brew install homebrew/dupes/nano
+#brew install homebrew/dupes/nano
 brew install homebrew/dupes/grep
 brew install homebrew/dupes/openssh
 brew install homebrew/dupes/screen
+
+# Install php and composer
+brew install homebrew/php/composer
+brew install homebrew/php/php55-xdebug
+brew install homebrew/php/php56-xdebug
+brew install homebrew/php/php70-xdebug
+brew install homebrew/php/php71-xdebug
 
 
 # run this script when this file changes guy.
@@ -59,22 +66,18 @@ brew install mtr
 # Install other useful binaries
 brew install the_silver_searcher
 brew install fzf
+brew install asciinema
 
 brew install git
 brew install imagemagick --with-webp
 brew install node # This installs `npm` too using the recommended installation method
 brew install pv
-brew install rename
-brew install tree
-brew install zopfli
 brew install ffmpeg --with-libvpx
 
 brew install terminal-notifier
 
 brew install android-platform-tools
 brew install pidcat   # colored logcat guy
-
-brew install zsh
 
 # Remove outdated versions from the cellar
 brew cleanup
